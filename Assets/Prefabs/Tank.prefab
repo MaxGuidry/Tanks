@@ -403,10 +403,10 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000011887375968}
-  m_LocalRotation: {x: 0.08715596, y: -0, z: -0, w: -0.9961947}
-  m_LocalPosition: {x: 0, y: 1.705, z: 1.5}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: -1}
+  m_LocalPosition: {x: 0, y: 1.705, z: 1.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 350, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 360, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000011123368524}
   m_RootOrder: 4
@@ -607,7 +607,8 @@ AudioSource:
   m_GameObject: {fileID: 1000011852654542}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243000011559617036, guid: a760424656ead7545a0d00de42616701,
+    type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -681,7 +682,8 @@ AudioSource:
   m_GameObject: {fileID: 1000011852654542}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243000010562466766, guid: a760424656ead7545a0d00de42616701,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 4932ab25b84dd7649b80af68a9660ddc, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
@@ -975,8 +977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_PlayerNumber: 1
-  m_Speed: 12
-  m_TurnSpeed: 180
+  m_Speed: 30
+  m_TurnSpeed: 400
   m_MovementAudio: {fileID: 82000011886326742}
   m_EngineIdling: {fileID: 8300000, guid: 4932ab25b84dd7649b80af68a9660ddc, type: 3}
   m_EngineDriving: {fileID: 8300000, guid: d7ca9fb5aa30155449192b23d7fb3336, type: 3}

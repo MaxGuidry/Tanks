@@ -185,7 +185,7 @@ Rigidbody:
   m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -198,7 +198,8 @@ AudioSource:
   m_GameObject: {fileID: 1000014015226818}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 243000011559617036, guid: a760424656ead7545a0d00de42616701,
+    type: 2}
   m_audioClip: {fileID: 8300000, guid: 3a77defcde1caaa40b6f7502547e0c4e, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -314,9 +315,9 @@ MonoBehaviour:
     m_Bits: 512
   m_ExplosionParticles: {fileID: 198000010860193536}
   m_ExplosionAudio: {fileID: 82000011799736532}
-  m_MaxDamage: 100
-  m_ExplosionForce: 1000
-  m_MaxLifeTime: 2
+  m_MaxDamage: 40
+  m_ExplosionForce: 1500
+  m_MaxLifeTime: 4
   m_ExplosionRadius: 5
 --- !u!136 &136000011549674132
 CapsuleCollider:
