@@ -9,8 +9,11 @@ public class TankShooting : MonoBehaviour
     public Slider m_AimSlider;           
     public AudioSource m_ShootingAudio;  
     public AudioClip m_ChargingClip;     
-    public AudioClip m_FireClip;         
-    public float m_MinLaunchForce = 30f; 
+    public AudioClip m_FireClip;    
+    [SerializeField]     
+    private float m_MinLaunchForce = 1f;
+    [SerializeField]
+    private float m_MinLaunchForces = 5f;
     public float m_MaxLaunchForce = 40f; 
     public float m_MaxChargeTime = 0.75f;
 
